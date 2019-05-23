@@ -4,7 +4,7 @@ class ntp {
   }
 
   file { '/etc/ntp.conf':
-    source => 'puppet:///modules/ntp/test.txt',
+    source => 'puppet:///modules/ntp/ntp.conf',
     notify  => Service['ntp'],
   }
 
