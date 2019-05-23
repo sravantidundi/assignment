@@ -1,0 +1,8 @@
+
+
+4. Discuss:  If you could solve this problem with a unique config file for every host instead of a template, would you do that? Why or why not?
+
+
+For this I can bake this configuration file as part of the VM image so that it takes away the config time 
+dependency to the provision time
+or we can also use push based tool like ansible to deploy a specific file to a single host.
